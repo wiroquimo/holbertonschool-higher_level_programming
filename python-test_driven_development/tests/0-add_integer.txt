@@ -18,7 +18,12 @@ Now use it:
     >>> add_integer(6, 4)
     10
 
-    Test 02: Sum two negative integers
+    Test 02: Sum a positive integar plus a negative integer
 
-    >>> add_integer(-2, -3)
-    -5
+    >>> add_integer(100, -2)
+    98
+
+    Test 03: Sum positive integar ``a`` plus default number ``b=98``
+
+    >>> add_integer(2)
+    100
