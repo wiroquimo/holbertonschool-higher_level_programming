@@ -27,3 +27,10 @@ Now use it:
 
     >>> add_integer(2)
     100
+
+    Test 04: Sum positive integar ``a`` plus infinite float number ``b``
+
+    >>> add_integer(1, float('inf'))
+    Traceback (most recent call last):
+    ...
+    OverflowError: cannot convert float infinity to integer
